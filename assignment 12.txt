@@ -1,0 +1,129 @@
+Ans=1
+int main()
+{
+    int i;
+    printf("Enter a Number ");
+    scanf("%d",&i);
+    rec(i);
+    return 0;
+}
+rec(int i)
+{
+    if(i==0)
+        return 0;
+    rec(i-1);
+    printf("%d ",i);
+
+}
+
+Ans=2
+int main()
+{
+    int i;
+    printf("Enter a Number ");
+    scanf("%d",&i);
+    rec(i);
+    return 0;
+}
+rec(int i)
+{
+    if(i==0)
+        return 0;
+    printf("%d ",i);
+    rec(i-1);
+}
+Ans=3
+int main()
+{
+    int i=-1,n;
+    printf("Enter a Number ");
+    scanf("%d",&n);
+    rec(n,i);
+
+}
+rec(int n,int i)
+{
+    if(n==0)
+        return 0;
+    i=i+2;
+    printf("%d ",i);
+    rec(n-1,i);
+}
+
+
+Ans=4
+int main()
+{
+    int i=-1,n;
+    printf("Enter a Number ");
+    scanf("%d",&n);
+    rec(n,i);
+
+}
+rec(int n,int i)
+{
+    if(n==0)
+        return 0;
+    i=i+2;
+    rec(n-1,i);
+    printf("%d ",i);
+}
+Ans=5
+int main()
+{
+    int i=0,n;
+    printf("Enter a Number ");
+    scanf("%d",&n);
+    rec(n,i);
+
+}
+rec(int n,int i)
+{
+    if(n==0)
+        return 0;
+    i=i+2;
+    printf("%d ",i);
+    rec(n-1,i);
+}
+
+Ans=6
+int main()
+{
+    int i=0,n;
+    printf("Enter a Number ");
+    scanf("%d",&n);
+    rec(n,i);
+
+}
+rec(int n,int i)
+{
+    if(n==0)
+        return 0;
+    i=i+2;
+    rec(n-1,i);
+    printf("%d ",i);
+}
+
+Ans=7
+
+int main()
+{
+    int n;
+    printf("Enter a number ");
+    scanf("%d",&n);
+    rec(n);
+}
+rec(int n)
+{
+    int i=n;
+    if(n==0)
+        return 0;
+    rec(n-1);
+    printf("%d ",i*i);
+
+}
+Ans=
+
+Ans=
+
+Ans=
